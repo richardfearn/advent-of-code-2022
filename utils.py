@@ -34,4 +34,4 @@ def group_lines(lines):
 
 
 def to_lines(text):
-    return text.strip().split("\n")
+    return text.strip("\n").split("\n")
